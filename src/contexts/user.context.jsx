@@ -15,6 +15,8 @@ export const UserContext = createContext({
   setCurrentUser: () => null,
 });
 
+// use reducer se koristi umjesto use state i use effect
+
 export const USER_ACTION_TYPES = {
   SET_CURRENT_USER: 'SET_CURRENT_USER',
 }
